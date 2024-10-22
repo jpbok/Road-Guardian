@@ -54,7 +54,7 @@ def get_llm_response(chunk_text):
     try:
         messages = [
             {"role": "system", "content": "You are a helpful assistant for driving theory test preparation."},
-            {"role": "user", "content": f"Summarize the following text and provide key points relevant for a driving theory test:\n\n{chunk_text}"}
+            {"role": "user", "content": f"Summarize the following text and provide key points relevant for a learner driver:\n\n{chunk_text}"}
         ]
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
