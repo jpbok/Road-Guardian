@@ -4,5 +4,7 @@ PyPDF2
 pandas
 faiss-cpu
 langchain
+langchain-community
 llmlingua
 cohere
+nltk

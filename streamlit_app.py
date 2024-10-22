@@ -1,65 +1,110 @@
 import streamlit as st
-from backend.rag_model import RAGModel  # Import the RAGModel class
-import os  # Import os for file operations
+import PyPDF2
+import json
+from openai import OpenAI
+from sentence_transformers import SentenceTransformer, util
 
-# Initialize RAGModel for document retrieval and Q&A
+# Input for OpenAI API Key
 openai_api_key = st.text_input("Enter your OpenAI API Key", type="password")
 
 if not openai_api_key:
-    st.info("Please add your OpenAI API key to continue.", icon="ℹ️")
-else:
-    rag_model = RAGModel(openai_api_key=openai_api_key)
-    
-    # Load and chunk the PDFs in the 'documents' folder
-    document_folder = "documents"  # Path to your folder with PDFs
-    st.write("Loading theory documents...")
-    pdf_text_chunks = rag_model.doc_retriever.docs
+    st.info("Please enter your OpenAI API key to continue.")
+    st.stop()
 
-    # Show feedback to the user about PDF loading
-    if pdf_text_chunks:
-        st.success(f"Loaded {len(pdf_text_chunks)} documents from the PDFs.")
-    else:
-        st.error("No PDF chunks were loaded. Please check the documents folder and try again.")
+# Instantiate OpenAI client
+client = OpenAI(api_key=openai_api_key)
 
-    st.title("Road Guardian Chatbot")
-    st.write("Welcome to Road Guardian! This chatbot helps learner drivers prepare for their driving test by summarizing key theory points and test preparation tips.")
+# Load metadata
+with open('documents/chunks/metadata.json') as f:
+    metadata = json.load(f)
 
-    # Initialize session state for chat messages
-    if "messages" not in st.session_state:
-        st.session_state.messages = [
-            {"role": "system", "content": "You are a chatbot that assists learner drivers by summarizing driving theory, providing test preparation tips, and explaining test results."}
+# Load the Sentence-Transformers model
+model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
+
+def load_pdf_chunk(chunk_path):
+    """Loads a specific chunk of the PDF."""
+    with open(chunk_path, 'rb') as f:
+        reader = PyPDF2.PdfReader(f)
+        text = ""
+        for page in reader.pages:
+            text += page.extract_text()
+    return text
+
+def find_relevant_chunk(query):
+    """Find the most relevant chunk based on a query."""
+    query_embedding = model.encode(query, convert_to_tensor=True)
+    best_chunk = None
+    highest_similarity = 0
+
+    for chunk in metadata:
+        chunk_embedding = model.encode(chunk['summary'], convert_to_tensor=True)
+        similarity = util.pytorch_cos_sim(query_embedding, chunk_embedding).item()
+        if similarity > highest_similarity:
+            highest_similarity = similarity
+            best_chunk = chunk
+
+    if best_chunk:
+        return best_chunk['path']
+    return None
+
+def get_llm_response(chunk_text):
+    """Generates a response using the LLM."""
+    try:
+        messages = [
+            {"role": "system", "content": "You are a helpful assistant for driving theory test preparation."},
+            {"role": "user", "content": f"Summarize the following text and provide key points relevant for a learner driver:\n\n{chunk_text}"}
         ]
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=messages,
+            temperature=0,
+            max_tokens=300  # Increased max_tokens to 300 for more detailed output
+        )
+        response_message = response.choices[0].message.content
+        return response_message.strip()
+    except Exception as e:
+        st.error(f"Error generating response: {e}")
+        return None
 
-    # Display chat history
-    for message in st.session_state.messages:
-        with st.chat_message(message["role"]):
-            st.markdown(message["content"])
-
-    # User input for chat
-    if prompt := st.chat_input("Ask your driving theory or test-related question here..."):
-        # Store and display the current prompt
-        st.session_state.messages.append({"role": "user", "content": prompt})
-        with st.chat_message("user"):
-            st.markdown(prompt)
-
-        # Generate response using OpenAI API and the RAG model
-        response_text = rag_model.answer_question(prompt)
+def handle_submit():
+    query = st.session_state.query_input
+    if query:
+        chunk_path = find_relevant_chunk(query)
         
-        # Stream and display assistant's response
-        with st.chat_message("assistant"):
-            st.markdown(response_text)
+        query_container = st.container()
+        with query_container:
+            st.subheader("Query:")
+            st.write(query)
         
-        st.session_state.messages.append({"role": "assistant", "content": response_text})
-
-    # Loading PDFs from the documents folder
-    st.write("Loading PDFs from the documents folder...")
-    if os.path.exists(document_folder):
-        pdf_files = [f for f in os.listdir(document_folder) if f.endswith(".pdf")]
-        if pdf_files:
-            st.write(f"Found {len(pdf_files)} PDFs:")
-            for pdf_file in pdf_files:
-                st.write(f"- {pdf_file}")
+        if chunk_path:
+            chunk_text = load_pdf_chunk(chunk_path)
+            findings_container = st.container()
+            with findings_container:
+                st.subheader("Findings:")
+                st.write(chunk_text)  # Display the original chunk text
+            
+            llm_response = get_llm_response(chunk_text)  # Get the LLM's response
+            if llm_response:
+                response_container = st.container()
+                with response_container:
+                    st.subheader("LLM Response:")
+                    st.write(llm_response)  # Display the LLM's response
+                    if st.button("Refresh"):
+                        st.experimental_rerun()
+            else:
+                st.write("Failed to generate a response.")
         else:
-            st.error("No PDFs found in the folder.")
-    else:
-        st.error(f"Folder not found: {document_folder}")
+            st.write("No relevant section found.")
+
+st.title("Road Guardian Chatbot")
+st.write("Welcome to Road Guardian! This chatbot helps learner drivers prepare for their driving test by summarizing key theory points and test preparation tips.")
+
+# Initialize session state for follow-up queries
+if "queries" not in st.session_state:
+    st.session_state["queries"] = []
+
+# Input for user query
+query = st.text_input('Enter your query' if not st.session_state["queries"] else 'Enter your next query', key="query_input", on_change=handle_submit)
+
+if st.button('Submit'):
+    handle_submit()

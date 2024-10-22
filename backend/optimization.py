@@ -13,8 +13,6 @@ def recursive_splitter(docs):
 # Semantic Chunking
 def semantic_chunker(docs):
     """Perform semantic chunking on the documents."""
-    # Placeholder for a working semantic chunking method
-    # Using simple splitting for now
     splitter = RecursiveCharacterTextSplitter()
     chunked_docs = [splitter.split_text(doc) for doc in docs]
     return [item for sublist in chunked_docs for item in sublist]
@@ -35,10 +33,8 @@ def query_router(query):
 def context_compressor(docs, llm, base_retriever):
     """Compress context of retrieved documents."""
     compressor = LLMChainExtractor.from_llm(llm)
-    compression_retriever = ContextualCompressionRetriever(
-        base_compressor=compressor, base_retriever=base_retriever
-    )
-    compressed_docs = compression_retriever.get_relevant_documents(docs)
+    compression_retriever = ContextualCompressionRetriever(base_compressor=compressor, base_retriever=base_retriever)
+    compressed_docs = compression_retriever.compress_documents(docs)
     return compressed_docs
 
 # Prompt Compression

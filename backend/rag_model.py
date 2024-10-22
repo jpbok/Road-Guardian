@@ -68,4 +68,5 @@ class RAGModel:
 
 # Example usage:
 # rag_model = RAGModel(openai_api_key="your-openai-api-key")
-# answer = rag_model.answer
+# answer = rag_model.answer_question("What is the rule for overtaking?")
+# print(answer)

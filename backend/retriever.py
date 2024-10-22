@@ -31,7 +31,12 @@ class DocumentRetriever:
     def recursive_split(self, text):
         """Perform recursive splitting of text."""
         splitter = RecursiveCharacterTextSplitter()
-        return splitter.split(text)
+        return splitter.split_text(text)
+
+    def semantic_chunk(self, text):
+        """Perform semantic chunking of text."""
+        splitter = RecursiveCharacterTextSplitter()
+        return splitter.split_text(text)
 
     def search_documents(self, query):
         """Search through the loaded documents and return the most relevant passages."""
