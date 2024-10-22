@@ -6,16 +6,13 @@ from sentence_transformers import SentenceTransformer, util
 from dotenv import load_dotenv
 import os
 
-# Load environment variables from .env file
-load_dotenv()
-
-# Get API key from environment variable
-openai_api_key = os.getenv("OPENAI_API_KEY")
+# Input for OpenAI API Key
+openai_api_key = st.text_input("Enter your OpenAI API Key", type="password")
 
 if not openai_api_key:
-    st.info("Please set the OPENAI_API_KEY environment variable.")
+    st.info("Please enter your OpenAI API key to continue.")
     st.stop()
-
+    
 # Instantiate OpenAI client
 client = OpenAI(api_key=openai_api_key)
 
