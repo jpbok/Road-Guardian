@@ -3,12 +3,17 @@ import PyPDF2
 import json
 from openai import OpenAI
 from sentence_transformers import SentenceTransformer, util
+from dotenv import load_dotenv
+import os
 
-# Input for OpenAI API Key
-openai_api_key = st.text_input("Enter your OpenAI API Key", type="password")
+# Load environment variables from .env file
+load_dotenv()
+
+# Get API key from environment variable
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 if not openai_api_key:
-    st.info("Please enter your OpenAI API key to continue.")
+    st.info("Please set the OPENAI_API_KEY environment variable.")
     st.stop()
 
 # Instantiate OpenAI client
@@ -52,7 +57,7 @@ def get_llm_response(chunk_text):
     try:
         messages = [
             {"role": "system", "content": "You are a helpful assistant for driving theory test preparation."},
-            {"role": "user", "content": f"Summarize the following text and provide key points relevant for a learner driver:\n\n{chunk_text}"}
+            {"role": "user", "content": f"Summarize the following text and provide key points relevant for a driving theory test:\n\n{chunk_text}"}
         ]
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
@@ -89,15 +94,27 @@ def handle_submit():
                 with response_container:
                     st.subheader("LLM Response:")
                     st.write(llm_response)  # Display the LLM's response
-                    if st.button("Refresh"):
-                        st.experimental_rerun()
+                st.button("Refresh", on_click=lambda: st.experimental_rerun())
             else:
                 st.write("Failed to generate a response.")
         else:
             st.write("No relevant section found.")
 
 st.title("Road Guardian Chatbot")
-st.write("Welcome to Road Guardian! This chatbot helps learner drivers prepare for their driving test by summarizing key theory points and test preparation tips.")
+st.write("""
+**Welcome to Road Guardian!**  
+This chatbot is your ultimate companion to ace the driving test. We make learning the key theory points simple and fun. 🛣️
+
+### **How it Works:**
+1. **Enter Your Query:** Ask anything about driving theory, road signs, or test tips.
+2. **Get Quick Summaries:** Receive concise and clear summaries of essential information.
+3. **Learn Continuously:** Keep asking follow-up questions without restarting the chat.
+
+### **Why Road Guardian?**
+- **Comprehensive:** Covers everything you need to know for the driving test.
+- **Interactive:** Enjoy a conversational and user-friendly learning experience.
+- **Accessible:** Learn at your own pace, anytime, anywhere.
+""")
 
 # Initialize session state for follow-up queries
 if "queries" not in st.session_state:
