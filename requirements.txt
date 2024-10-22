@@ -5,6 +5,7 @@ pandas
 faiss-cpu
 langchain
 langchain-community
+langchain-community
 llmlingua
 cohere
 nltk
