@@ -9,3 +9,4 @@ langchain-community
 llmlingua
 cohere
 nltk
+sentence-transformers
