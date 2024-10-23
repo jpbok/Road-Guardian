@@ -118,7 +118,7 @@ if "queries" not in st.session_state:
     st.session_state["queries"] = []
 
 if st.button('Refresh'):
-    st.experimental_rerun()
+    st.rerun()
 
 # Input for user query
 query = st.text_input('Enter your query' if not st.session_state["queries"] else 'Enter your next query', key="query_input", on_change=handle_submit)
