@@ -91,7 +91,7 @@ def handle_submit():
                 with response_container:
                     st.subheader("LLM Response:")
                     st.write(llm_response)  # Display the LLM's response
-                st.button("Refresh", on_click=lambda: st.experimental_rerun())
+                #st.button("Refresh", on_click=lambda: st.experimental_rerun())
             else:
                 st.write("Failed to generate a response.")
         else:
@@ -116,6 +116,9 @@ This chatbot is your ultimate companion to ace the driving test. We make learnin
 # Initialize session state for follow-up queries
 if "queries" not in st.session_state:
     st.session_state["queries"] = []
+
+if st.button('Refresh'):
+    st.experimental_rerun()
 
 # Input for user query
 query = st.text_input('Enter your query' if not st.session_state["queries"] else 'Enter your next query', key="query_input", on_change=handle_submit)
