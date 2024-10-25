@@ -1,59 +1,17 @@
-import os
-import PyPDF2
-import pandas as pd
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+# retriever.py
+from langchain.vectorstores.faiss import FAISS
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.docstore.document import Document
 
-# Path to the documents folder
-DOCUMENTS_DIR = os.path.join(os.getcwd(), 'documents')
+class FaissRetriever:
+    def __init__(self, documents):
+        # Ensure the OpenAIEmbeddings includes pdf_path metadata in the index
+        embeddings = OpenAIEmbeddings()
+        self.index = FAISS.from_documents(documents, embeddings)
+        print("FAISS index initialized with documents metadata.")
 
-class DocumentRetriever:
-    def __init__(self):
-        self.docs = self.load_documents()
-
-    def load_documents(self):
-        """Load PDF documents from the documents folder."""
-        documents = {}
-        for file_name in os.listdir(DOCUMENTS_DIR):
-            if file_name.endswith('.pdf'):
-                file_path = os.path.join(DOCUMENTS_DIR, file_name)
-                documents[file_name] = self.extract_text_from_pdf(file_path)
-        return documents
-
-    def extract_text_from_pdf(self, file_path):
-        """Extracts text from a PDF file."""
-        with open(file_path, 'rb') as f:
-            reader = PyPDF2.PdfReader(f)
-            text = ""
-            for page in reader.pages:
-                text += page.extract_text()
-        return text
-
-    def recursive_split(self, text):
-        """Perform recursive splitting of text."""
-        splitter = RecursiveCharacterTextSplitter()
-        return splitter.split_text(text)
-
-    def semantic_chunk(self, text):
-        """Perform semantic chunking of text."""
-        splitter = RecursiveCharacterTextSplitter()
-        return splitter.split_text(text)
-
-    def search_documents(self, query):
-        """Search through the loaded documents and return the most relevant passages."""
-        results = []
-        for doc_name, text in self.docs.items():
-            if query.lower() in text.lower():
-                results.append({'document': doc_name, 'text': text})
+    def retrieve(self, query):
+        results = self.index.similarity_search(query, k=5)
+        for result in results:
+            print(f"Retrieved match metadata: {result.metadata}")  # Check if pdf_path is retained
         return results
-
-    def load_checklist_data(self):
-        """Load checklist data from a CSV."""
-        csv_path = os.path.join(os.getcwd(), 'data', 'driving_checklists.csv')
-        if os.path.exists(csv_path):
-            return pd.read_csv(csv_path)
-        return None
-
-# Example usage:
-# retriever = DocumentRetriever()
-# result = retriever.search_documents("traffic rules")
-# print(result)
