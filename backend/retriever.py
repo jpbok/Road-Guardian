@@ -4,6 +4,12 @@ from langchain.vectorstores.faiss import FAISS
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.docstore.document import Document
 
+# Check if the key is accessible
+if "OPENAI_API_KEY" in st.secrets:
+    st.write("API key found!")
+else:
+    st.write("API key not found! Please set it in Streamlit secrets.")
+
 class FaissRetriever:
     def __init__(self, documents):
         # Retrieve the OpenAI API Key from Streamlit secrets
