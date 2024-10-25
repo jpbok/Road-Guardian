@@ -6,7 +6,7 @@ from langchain.docstore.document import Document
 class FaissRetriever:
     def __init__(self, documents):
         # Ensure the OpenAIEmbeddings includes pdf_path metadata in the index
-        embeddings = OpenAIEmbeddings()
+        embeddings = OpenAIEmbeddings(openai_api_key=st.secrets["OPENAI_API_KEY"])
         self.index = FAISS.from_documents(documents, embeddings)
         print("FAISS index initialized with documents metadata.")
 
