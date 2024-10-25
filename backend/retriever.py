@@ -4,23 +4,23 @@ from langchain.vectorstores.faiss import FAISS
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.docstore.document import Document
 
-# Check if the key is accessible
-if "OPENAI_API_KEY" in st.secrets:
-    st.write("API key found!")
-else:
-    st.write("API key not found! Please set it in Streamlit secrets.")
-
 class FaissRetriever:
     def __init__(self, documents):
-        # Retrieve the OpenAI API Key from Streamlit secrets
-        api_key = st.secrets["OPENAI_API_KEY"]
-        
+        # Check if API key is in st.secrets and print debug information
+        if "OPENAI_API_KEY" in st.secrets:
+            print("API key found!")
+            api_key = st.secrets["OPENAI_API_KEY"]
+        else:
+            print("API key not found! Please set it in Streamlit secrets.")
+            raise KeyError("OPENAI_API_KEY is missing in Streamlit secrets.")
+
         # Initialize embeddings with the API key
         embeddings = OpenAIEmbeddings(openai_api_key=api_key)
         
         # Initialize the FAISS index with the documents and embeddings
         self.index = FAISS.from_documents(documents, embeddings)
         print("FAISS index initialized with documents metadata.")
+
 
     def retrieve(self, query):
         # Perform similarity search in the FAISS index
