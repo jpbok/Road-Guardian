@@ -3,6 +3,7 @@ import streamlit as st
 from langchain.vectorstores.faiss import FAISS
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.docstore.document import Document
+print("st.secrets:", st.secrets)
 
 class FaissRetriever:
     def __init__(self, documents):
