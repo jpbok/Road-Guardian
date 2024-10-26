@@ -1,17 +1,18 @@
 # retriever.py
-from backend.govtext_api import get_response_from_llm
+import streamlit as st
 from langchain.vectorstores.faiss import FAISS
-from langchain.docstore.document import Document
+from langchain.embeddings import OpenAIEmbeddings
 
 class FaissRetriever:
     def __init__(self, documents):
-        # Here, we directly get embeddings from GovText, if supported
-        embeddings = [get_response_from_llm(doc.page_content) for doc in documents]
-        self.index = FAISS.from_texts([doc.page_content for doc in documents], embeddings)
-        print("FAISS index initialized with documents metadata.")
+        # Replace OpenAI base URL and model to use GovText settings
+        api_key = st.secrets["GOVTEXT_API_KEY"]
+        embeddings = OpenAIEmbeddings(
+            openai_api_key=api_key,
+            openai_api_base="https://litellm.govtext.gov.sg/",
+            model="text-embedding-3-large-prd-gcc2-lb"
+        )
+        self.index = FAISS.from_documents(documents, embeddings)
 
     def retrieve(self, query):
-        results = self.index.similarity_search(query, k=5)
-        for result in results:
-            print(f"Retrieved match metadata: {result.metadata}")
-        return results
+        return self.index.similarity_search(query, k=5)
