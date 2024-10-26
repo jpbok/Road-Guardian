@@ -5,7 +5,7 @@ from langchain.embeddings import OpenAIEmbeddings
 
 class FaissRetriever:
     def __init__(self, documents):
-        # Replace OpenAI base URL and model to use GovText settings
+        # Retrieve API key from Streamlit secrets
         api_key = st.secrets["GOVTEXT_API_KEY"]
         embeddings = OpenAIEmbeddings(
             openai_api_key=api_key,
