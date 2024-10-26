@@ -23,7 +23,6 @@ def load_documents_from_metadata(metadata_paths):
     return documents
 
 def generate_mcqs_from_response(response_text):
-    # Modify the prompt to ensure clear MCQ generation instructions
     prompt = (
         f"Based on the following driving theory text, create two multiple-choice questions with 3 answer options each. "
         f"Each question should have only one correct answer. Provide the correct answer after each question.\n\n"
