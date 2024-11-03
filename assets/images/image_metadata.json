@@ -1,1244 +1,1244 @@
 {
-    "documents/basic_theory.pdf": [
+    "./documents/basic_theory.pdf": [
         {
             "page": 1,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_1.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_1.png"
         },
         {
             "page": 2,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_2.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_2.png"
         },
         {
             "page": 3,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_3.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_3.png"
         },
         {
             "page": 4,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_4.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_4.png"
         },
         {
             "page": 5,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_5.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_5.png"
         },
         {
             "page": 6,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_6.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_6.png"
         },
         {
             "page": 7,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_7.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_7.png"
         },
         {
             "page": 8,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_8.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_8.png"
         },
         {
             "page": 9,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_9.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_9.png"
         },
         {
             "page": 10,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_10.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_10.png"
         },
         {
             "page": 11,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_11.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_11.png"
         },
         {
             "page": 12,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_12.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_12.png"
         },
         {
             "page": 13,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_13.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_13.png"
         },
         {
             "page": 14,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_14.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_14.png"
         },
         {
             "page": 15,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_15.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_15.png"
         },
         {
             "page": 16,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_16.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_16.png"
         },
         {
             "page": 17,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_17.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_17.png"
         },
         {
             "page": 18,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_18.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_18.png"
         },
         {
             "page": 19,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_19.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_19.png"
         },
         {
             "page": 20,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_20.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_20.png"
         },
         {
             "page": 21,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_21.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_21.png"
         },
         {
             "page": 22,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_22.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_22.png"
         },
         {
             "page": 23,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_23.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_23.png"
         },
         {
             "page": 24,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_24.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_24.png"
         },
         {
             "page": 25,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_25.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_25.png"
         },
         {
             "page": 26,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_26.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_26.png"
         },
         {
             "page": 27,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_27.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_27.png"
         },
         {
             "page": 28,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_28.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_28.png"
         },
         {
             "page": 29,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_29.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_29.png"
         },
         {
             "page": 30,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_30.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_30.png"
         },
         {
             "page": 31,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_31.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_31.png"
         },
         {
             "page": 32,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_32.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_32.png"
         },
         {
             "page": 33,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_33.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_33.png"
         },
         {
             "page": 34,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_34.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_34.png"
         },
         {
             "page": 35,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_35.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_35.png"
         },
         {
             "page": 36,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_36.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_36.png"
         },
         {
             "page": 37,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_37.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_37.png"
         },
         {
             "page": 38,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_38.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_38.png"
         },
         {
             "page": 39,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_39.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_39.png"
         },
         {
             "page": 40,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_40.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_40.png"
         },
         {
             "page": 41,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_41.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_41.png"
         },
         {
             "page": 42,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_42.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_42.png"
         },
         {
             "page": 43,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_43.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_43.png"
         },
         {
             "page": 44,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_44.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_44.png"
         },
         {
             "page": 45,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_45.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_45.png"
         },
         {
             "page": 46,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_46.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_46.png"
         },
         {
             "page": 47,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_47.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_47.png"
         },
         {
             "page": 48,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_48.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_48.png"
         },
         {
             "page": 49,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_49.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_49.png"
         },
         {
             "page": 50,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_50.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_50.png"
         },
         {
             "page": 51,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_51.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_51.png"
         },
         {
             "page": 52,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_52.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_52.png"
         },
         {
             "page": 53,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_53.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_53.png"
         },
         {
             "page": 54,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_54.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_54.png"
         },
         {
             "page": 55,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_55.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_55.png"
         },
         {
             "page": 56,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_56.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_56.png"
         },
         {
             "page": 57,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_57.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_57.png"
         },
         {
             "page": 58,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_58.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_58.png"
         },
         {
             "page": 59,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_59.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_59.png"
         },
         {
             "page": 60,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_60.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_60.png"
         },
         {
             "page": 61,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_61.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_61.png"
         },
         {
             "page": 62,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_62.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_62.png"
         },
         {
             "page": 63,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_63.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_63.png"
         },
         {
             "page": 64,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_64.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_64.png"
         },
         {
             "page": 65,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_65.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_65.png"
         },
         {
             "page": 66,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_66.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_66.png"
         },
         {
             "page": 67,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_67.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_67.png"
         },
         {
             "page": 68,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_68.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_68.png"
         },
         {
             "page": 69,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_69.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_69.png"
         },
         {
             "page": 70,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_70.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_70.png"
         },
         {
             "page": 71,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_71.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_71.png"
         },
         {
             "page": 72,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_72.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_72.png"
         },
         {
             "page": 73,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_73.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_73.png"
         },
         {
             "page": 74,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_74.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_74.png"
         },
         {
             "page": 75,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_75.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_75.png"
         },
         {
             "page": 76,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_76.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_76.png"
         },
         {
             "page": 77,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_77.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_77.png"
         },
         {
             "page": 78,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_78.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_78.png"
         },
         {
             "page": 79,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_79.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_79.png"
         },
         {
             "page": 80,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_80.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_80.png"
         },
         {
             "page": 81,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_81.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_81.png"
         },
         {
             "page": 82,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_82.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_82.png"
         },
         {
             "page": 83,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_83.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_83.png"
         },
         {
             "page": 84,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_84.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_84.png"
         },
         {
             "page": 85,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_85.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_85.png"
         },
         {
             "page": 86,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_86.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_86.png"
         },
         {
             "page": 87,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_87.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_87.png"
         },
         {
             "page": 88,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_88.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_88.png"
         },
         {
             "page": 89,
-            "image_path": "assets/images/basic_theory/image_basic_theory_page_89.png"
+            "image_path": "./assets/images/basic_theory/image_basic_theory_page_89.png"
         }
     ],
-    "documents/final_theory.pdf": [
+    "./documents/final_theory.pdf": [
         {
             "page": 1,
-            "image_path": "assets/images/final_theory/image_final_theory_page_1.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_1.png"
         },
         {
             "page": 2,
-            "image_path": "assets/images/final_theory/image_final_theory_page_2.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_2.png"
         },
         {
             "page": 3,
-            "image_path": "assets/images/final_theory/image_final_theory_page_3.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_3.png"
         },
         {
             "page": 4,
-            "image_path": "assets/images/final_theory/image_final_theory_page_4.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_4.png"
         },
         {
             "page": 5,
-            "image_path": "assets/images/final_theory/image_final_theory_page_5.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_5.png"
         },
         {
             "page": 6,
-            "image_path": "assets/images/final_theory/image_final_theory_page_6.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_6.png"
         },
         {
             "page": 7,
-            "image_path": "assets/images/final_theory/image_final_theory_page_7.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_7.png"
         },
         {
             "page": 8,
-            "image_path": "assets/images/final_theory/image_final_theory_page_8.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_8.png"
         },
         {
             "page": 9,
-            "image_path": "assets/images/final_theory/image_final_theory_page_9.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_9.png"
         },
         {
             "page": 10,
-            "image_path": "assets/images/final_theory/image_final_theory_page_10.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_10.png"
         },
         {
             "page": 11,
-            "image_path": "assets/images/final_theory/image_final_theory_page_11.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_11.png"
         },
         {
             "page": 12,
-            "image_path": "assets/images/final_theory/image_final_theory_page_12.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_12.png"
         },
         {
             "page": 13,
-            "image_path": "assets/images/final_theory/image_final_theory_page_13.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_13.png"
         },
         {
             "page": 14,
-            "image_path": "assets/images/final_theory/image_final_theory_page_14.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_14.png"
         },
         {
             "page": 15,
-            "image_path": "assets/images/final_theory/image_final_theory_page_15.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_15.png"
         },
         {
             "page": 16,
-            "image_path": "assets/images/final_theory/image_final_theory_page_16.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_16.png"
         },
         {
             "page": 17,
-            "image_path": "assets/images/final_theory/image_final_theory_page_17.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_17.png"
         },
         {
             "page": 18,
-            "image_path": "assets/images/final_theory/image_final_theory_page_18.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_18.png"
         },
         {
             "page": 19,
-            "image_path": "assets/images/final_theory/image_final_theory_page_19.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_19.png"
         },
         {
             "page": 20,
-            "image_path": "assets/images/final_theory/image_final_theory_page_20.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_20.png"
         },
         {
             "page": 21,
-            "image_path": "assets/images/final_theory/image_final_theory_page_21.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_21.png"
         },
         {
             "page": 22,
-            "image_path": "assets/images/final_theory/image_final_theory_page_22.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_22.png"
         },
         {
             "page": 23,
-            "image_path": "assets/images/final_theory/image_final_theory_page_23.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_23.png"
         },
         {
             "page": 24,
-            "image_path": "assets/images/final_theory/image_final_theory_page_24.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_24.png"
         },
         {
             "page": 25,
-            "image_path": "assets/images/final_theory/image_final_theory_page_25.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_25.png"
         },
         {
             "page": 26,
-            "image_path": "assets/images/final_theory/image_final_theory_page_26.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_26.png"
         },
         {
             "page": 27,
-            "image_path": "assets/images/final_theory/image_final_theory_page_27.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_27.png"
         },
         {
             "page": 28,
-            "image_path": "assets/images/final_theory/image_final_theory_page_28.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_28.png"
         },
         {
             "page": 29,
-            "image_path": "assets/images/final_theory/image_final_theory_page_29.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_29.png"
         },
         {
             "page": 30,
-            "image_path": "assets/images/final_theory/image_final_theory_page_30.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_30.png"
         },
         {
             "page": 31,
-            "image_path": "assets/images/final_theory/image_final_theory_page_31.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_31.png"
         },
         {
             "page": 32,
-            "image_path": "assets/images/final_theory/image_final_theory_page_32.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_32.png"
         },
         {
             "page": 33,
-            "image_path": "assets/images/final_theory/image_final_theory_page_33.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_33.png"
         },
         {
             "page": 34,
-            "image_path": "assets/images/final_theory/image_final_theory_page_34.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_34.png"
         },
         {
             "page": 35,
-            "image_path": "assets/images/final_theory/image_final_theory_page_35.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_35.png"
         },
         {
             "page": 36,
-            "image_path": "assets/images/final_theory/image_final_theory_page_36.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_36.png"
         },
         {
             "page": 37,
-            "image_path": "assets/images/final_theory/image_final_theory_page_37.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_37.png"
         },
         {
             "page": 38,
-            "image_path": "assets/images/final_theory/image_final_theory_page_38.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_38.png"
         },
         {
             "page": 39,
-            "image_path": "assets/images/final_theory/image_final_theory_page_39.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_39.png"
         },
         {
             "page": 40,
-            "image_path": "assets/images/final_theory/image_final_theory_page_40.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_40.png"
         },
         {
             "page": 41,
-            "image_path": "assets/images/final_theory/image_final_theory_page_41.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_41.png"
         },
         {
             "page": 42,
-            "image_path": "assets/images/final_theory/image_final_theory_page_42.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_42.png"
         },
         {
             "page": 43,
-            "image_path": "assets/images/final_theory/image_final_theory_page_43.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_43.png"
         },
         {
             "page": 44,
-            "image_path": "assets/images/final_theory/image_final_theory_page_44.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_44.png"
         },
         {
             "page": 45,
-            "image_path": "assets/images/final_theory/image_final_theory_page_45.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_45.png"
         },
         {
             "page": 46,
-            "image_path": "assets/images/final_theory/image_final_theory_page_46.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_46.png"
         },
         {
             "page": 47,
-            "image_path": "assets/images/final_theory/image_final_theory_page_47.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_47.png"
         },
         {
             "page": 48,
-            "image_path": "assets/images/final_theory/image_final_theory_page_48.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_48.png"
         },
         {
             "page": 49,
-            "image_path": "assets/images/final_theory/image_final_theory_page_49.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_49.png"
         },
         {
             "page": 50,
-            "image_path": "assets/images/final_theory/image_final_theory_page_50.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_50.png"
         },
         {
             "page": 51,
-            "image_path": "assets/images/final_theory/image_final_theory_page_51.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_51.png"
         },
         {
             "page": 52,
-            "image_path": "assets/images/final_theory/image_final_theory_page_52.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_52.png"
         },
         {
             "page": 53,
-            "image_path": "assets/images/final_theory/image_final_theory_page_53.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_53.png"
         },
         {
             "page": 54,
-            "image_path": "assets/images/final_theory/image_final_theory_page_54.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_54.png"
         },
         {
             "page": 55,
-            "image_path": "assets/images/final_theory/image_final_theory_page_55.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_55.png"
         },
         {
             "page": 56,
-            "image_path": "assets/images/final_theory/image_final_theory_page_56.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_56.png"
         },
         {
             "page": 57,
-            "image_path": "assets/images/final_theory/image_final_theory_page_57.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_57.png"
         },
         {
             "page": 58,
-            "image_path": "assets/images/final_theory/image_final_theory_page_58.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_58.png"
         },
         {
             "page": 59,
-            "image_path": "assets/images/final_theory/image_final_theory_page_59.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_59.png"
         },
         {
             "page": 60,
-            "image_path": "assets/images/final_theory/image_final_theory_page_60.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_60.png"
         },
         {
             "page": 61,
-            "image_path": "assets/images/final_theory/image_final_theory_page_61.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_61.png"
         },
         {
             "page": 62,
-            "image_path": "assets/images/final_theory/image_final_theory_page_62.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_62.png"
         },
         {
             "page": 63,
-            "image_path": "assets/images/final_theory/image_final_theory_page_63.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_63.png"
         },
         {
             "page": 64,
-            "image_path": "assets/images/final_theory/image_final_theory_page_64.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_64.png"
         },
         {
             "page": 65,
-            "image_path": "assets/images/final_theory/image_final_theory_page_65.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_65.png"
         },
         {
             "page": 66,
-            "image_path": "assets/images/final_theory/image_final_theory_page_66.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_66.png"
         },
         {
             "page": 67,
-            "image_path": "assets/images/final_theory/image_final_theory_page_67.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_67.png"
         },
         {
             "page": 68,
-            "image_path": "assets/images/final_theory/image_final_theory_page_68.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_68.png"
         },
         {
             "page": 69,
-            "image_path": "assets/images/final_theory/image_final_theory_page_69.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_69.png"
         },
         {
             "page": 70,
-            "image_path": "assets/images/final_theory/image_final_theory_page_70.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_70.png"
         },
         {
             "page": 71,
-            "image_path": "assets/images/final_theory/image_final_theory_page_71.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_71.png"
         },
         {
             "page": 72,
-            "image_path": "assets/images/final_theory/image_final_theory_page_72.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_72.png"
         },
         {
             "page": 73,
-            "image_path": "assets/images/final_theory/image_final_theory_page_73.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_73.png"
         },
         {
             "page": 74,
-            "image_path": "assets/images/final_theory/image_final_theory_page_74.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_74.png"
         },
         {
             "page": 75,
-            "image_path": "assets/images/final_theory/image_final_theory_page_75.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_75.png"
         },
         {
             "page": 76,
-            "image_path": "assets/images/final_theory/image_final_theory_page_76.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_76.png"
         },
         {
             "page": 77,
-            "image_path": "assets/images/final_theory/image_final_theory_page_77.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_77.png"
         },
         {
             "page": 78,
-            "image_path": "assets/images/final_theory/image_final_theory_page_78.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_78.png"
         },
         {
             "page": 79,
-            "image_path": "assets/images/final_theory/image_final_theory_page_79.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_79.png"
         },
         {
             "page": 80,
-            "image_path": "assets/images/final_theory/image_final_theory_page_80.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_80.png"
         },
         {
             "page": 81,
-            "image_path": "assets/images/final_theory/image_final_theory_page_81.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_81.png"
         },
         {
             "page": 82,
-            "image_path": "assets/images/final_theory/image_final_theory_page_82.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_82.png"
         },
         {
             "page": 83,
-            "image_path": "assets/images/final_theory/image_final_theory_page_83.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_83.png"
         },
         {
             "page": 84,
-            "image_path": "assets/images/final_theory/image_final_theory_page_84.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_84.png"
         },
         {
             "page": 85,
-            "image_path": "assets/images/final_theory/image_final_theory_page_85.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_85.png"
         },
         {
             "page": 86,
-            "image_path": "assets/images/final_theory/image_final_theory_page_86.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_86.png"
         },
         {
             "page": 87,
-            "image_path": "assets/images/final_theory/image_final_theory_page_87.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_87.png"
         },
         {
             "page": 88,
-            "image_path": "assets/images/final_theory/image_final_theory_page_88.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_88.png"
         },
         {
             "page": 89,
-            "image_path": "assets/images/final_theory/image_final_theory_page_89.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_89.png"
         },
         {
             "page": 90,
-            "image_path": "assets/images/final_theory/image_final_theory_page_90.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_90.png"
         },
         {
             "page": 91,
-            "image_path": "assets/images/final_theory/image_final_theory_page_91.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_91.png"
         },
         {
             "page": 92,
-            "image_path": "assets/images/final_theory/image_final_theory_page_92.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_92.png"
         },
         {
             "page": 93,
-            "image_path": "assets/images/final_theory/image_final_theory_page_93.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_93.png"
         },
         {
             "page": 94,
-            "image_path": "assets/images/final_theory/image_final_theory_page_94.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_94.png"
         },
         {
             "page": 95,
-            "image_path": "assets/images/final_theory/image_final_theory_page_95.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_95.png"
         },
         {
             "page": 96,
-            "image_path": "assets/images/final_theory/image_final_theory_page_96.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_96.png"
         },
         {
             "page": 97,
-            "image_path": "assets/images/final_theory/image_final_theory_page_97.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_97.png"
         },
         {
             "page": 98,
-            "image_path": "assets/images/final_theory/image_final_theory_page_98.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_98.png"
         },
         {
             "page": 99,
-            "image_path": "assets/images/final_theory/image_final_theory_page_99.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_99.png"
         },
         {
             "page": 100,
-            "image_path": "assets/images/final_theory/image_final_theory_page_100.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_100.png"
         },
         {
             "page": 101,
-            "image_path": "assets/images/final_theory/image_final_theory_page_101.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_101.png"
         },
         {
             "page": 102,
-            "image_path": "assets/images/final_theory/image_final_theory_page_102.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_102.png"
         },
         {
             "page": 103,
-            "image_path": "assets/images/final_theory/image_final_theory_page_103.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_103.png"
         },
         {
             "page": 104,
-            "image_path": "assets/images/final_theory/image_final_theory_page_104.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_104.png"
         },
         {
             "page": 105,
-            "image_path": "assets/images/final_theory/image_final_theory_page_105.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_105.png"
         },
         {
             "page": 106,
-            "image_path": "assets/images/final_theory/image_final_theory_page_106.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_106.png"
         },
         {
             "page": 107,
-            "image_path": "assets/images/final_theory/image_final_theory_page_107.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_107.png"
         },
         {
             "page": 108,
-            "image_path": "assets/images/final_theory/image_final_theory_page_108.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_108.png"
         },
         {
             "page": 109,
-            "image_path": "assets/images/final_theory/image_final_theory_page_109.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_109.png"
         },
         {
             "page": 110,
-            "image_path": "assets/images/final_theory/image_final_theory_page_110.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_110.png"
         },
         {
             "page": 111,
-            "image_path": "assets/images/final_theory/image_final_theory_page_111.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_111.png"
         },
         {
             "page": 112,
-            "image_path": "assets/images/final_theory/image_final_theory_page_112.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_112.png"
         },
         {
             "page": 113,
-            "image_path": "assets/images/final_theory/image_final_theory_page_113.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_113.png"
         },
         {
             "page": 114,
-            "image_path": "assets/images/final_theory/image_final_theory_page_114.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_114.png"
         },
         {
             "page": 115,
-            "image_path": "assets/images/final_theory/image_final_theory_page_115.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_115.png"
         },
         {
             "page": 116,
-            "image_path": "assets/images/final_theory/image_final_theory_page_116.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_116.png"
         },
         {
             "page": 117,
-            "image_path": "assets/images/final_theory/image_final_theory_page_117.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_117.png"
         },
         {
             "page": 118,
-            "image_path": "assets/images/final_theory/image_final_theory_page_118.png"
+            "image_path": "./assets/images/final_theory/image_final_theory_page_118.png"
         }
     ],
-    "documents/riding_theory.pdf": [
+    "./documents/riding_theory.pdf": [
         {
             "page": 1,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_1.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_1.png"
         },
         {
             "page": 2,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_2.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_2.png"
         },
         {
             "page": 3,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_3.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_3.png"
         },
         {
             "page": 4,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_4.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_4.png"
         },
         {
             "page": 5,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_5.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_5.png"
         },
         {
             "page": 6,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_6.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_6.png"
         },
         {
             "page": 7,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_7.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_7.png"
         },
         {
             "page": 8,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_8.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_8.png"
         },
         {
             "page": 9,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_9.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_9.png"
         },
         {
             "page": 10,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_10.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_10.png"
         },
         {
             "page": 11,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_11.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_11.png"
         },
         {
             "page": 12,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_12.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_12.png"
         },
         {
             "page": 13,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_13.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_13.png"
         },
         {
             "page": 14,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_14.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_14.png"
         },
         {
             "page": 15,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_15.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_15.png"
         },
         {
             "page": 16,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_16.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_16.png"
         },
         {
             "page": 17,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_17.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_17.png"
         },
         {
             "page": 18,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_18.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_18.png"
         },
         {
             "page": 19,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_19.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_19.png"
         },
         {
             "page": 20,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_20.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_20.png"
         },
         {
             "page": 21,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_21.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_21.png"
         },
         {
             "page": 22,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_22.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_22.png"
         },
         {
             "page": 23,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_23.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_23.png"
         },
         {
             "page": 24,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_24.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_24.png"
         },
         {
             "page": 25,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_25.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_25.png"
         },
         {
             "page": 26,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_26.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_26.png"
         },
         {
             "page": 27,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_27.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_27.png"
         },
         {
             "page": 28,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_28.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_28.png"
         },
         {
             "page": 29,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_29.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_29.png"
         },
         {
             "page": 30,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_30.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_30.png"
         },
         {
             "page": 31,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_31.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_31.png"
         },
         {
             "page": 32,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_32.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_32.png"
         },
         {
             "page": 33,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_33.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_33.png"
         },
         {
             "page": 34,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_34.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_34.png"
         },
         {
             "page": 35,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_35.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_35.png"
         },
         {
             "page": 36,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_36.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_36.png"
         },
         {
             "page": 37,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_37.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_37.png"
         },
         {
             "page": 38,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_38.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_38.png"
         },
         {
             "page": 39,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_39.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_39.png"
         },
         {
             "page": 40,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_40.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_40.png"
         },
         {
             "page": 41,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_41.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_41.png"
         },
         {
             "page": 42,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_42.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_42.png"
         },
         {
             "page": 43,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_43.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_43.png"
         },
         {
             "page": 44,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_44.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_44.png"
         },
         {
             "page": 45,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_45.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_45.png"
         },
         {
             "page": 46,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_46.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_46.png"
         },
         {
             "page": 47,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_47.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_47.png"
         },
         {
             "page": 48,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_48.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_48.png"
         },
         {
             "page": 49,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_49.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_49.png"
         },
         {
             "page": 50,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_50.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_50.png"
         },
         {
             "page": 51,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_51.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_51.png"
         },
         {
             "page": 52,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_52.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_52.png"
         },
         {
             "page": 53,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_53.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_53.png"
         },
         {
             "page": 54,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_54.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_54.png"
         },
         {
             "page": 55,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_55.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_55.png"
         },
         {
             "page": 56,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_56.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_56.png"
         },
         {
             "page": 57,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_57.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_57.png"
         },
         {
             "page": 58,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_58.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_58.png"
         },
         {
             "page": 59,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_59.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_59.png"
         },
         {
             "page": 60,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_60.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_60.png"
         },
         {
             "page": 61,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_61.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_61.png"
         },
         {
             "page": 62,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_62.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_62.png"
         },
         {
             "page": 63,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_63.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_63.png"
         },
         {
             "page": 64,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_64.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_64.png"
         },
         {
             "page": 65,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_65.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_65.png"
         },
         {
             "page": 66,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_66.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_66.png"
         },
         {
             "page": 67,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_67.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_67.png"
         },
         {
             "page": 68,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_68.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_68.png"
         },
         {
             "page": 69,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_69.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_69.png"
         },
         {
             "page": 70,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_70.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_70.png"
         },
         {
             "page": 71,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_71.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_71.png"
         },
         {
             "page": 72,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_72.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_72.png"
         },
         {
             "page": 73,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_73.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_73.png"
         },
         {
             "page": 74,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_74.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_74.png"
         },
         {
             "page": 75,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_75.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_75.png"
         },
         {
             "page": 76,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_76.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_76.png"
         },
         {
             "page": 77,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_77.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_77.png"
         },
         {
             "page": 78,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_78.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_78.png"
         },
         {
             "page": 79,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_79.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_79.png"
         },
         {
             "page": 80,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_80.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_80.png"
         },
         {
             "page": 81,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_81.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_81.png"
         },
         {
             "page": 82,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_82.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_82.png"
         },
         {
             "page": 83,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_83.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_83.png"
         },
         {
             "page": 84,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_84.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_84.png"
         },
         {
             "page": 85,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_85.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_85.png"
         },
         {
             "page": 86,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_86.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_86.png"
         },
         {
             "page": 87,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_87.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_87.png"
         },
         {
             "page": 88,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_88.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_88.png"
         },
         {
             "page": 89,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_89.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_89.png"
         },
         {
             "page": 90,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_90.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_90.png"
         },
         {
             "page": 91,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_91.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_91.png"
         },
         {
             "page": 92,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_92.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_92.png"
         },
         {
             "page": 93,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_93.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_93.png"
         },
         {
             "page": 94,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_94.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_94.png"
         },
         {
             "page": 95,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_95.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_95.png"
         },
         {
             "page": 96,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_96.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_96.png"
         },
         {
             "page": 97,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_97.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_97.png"
         },
         {
             "page": 98,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_98.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_98.png"
         },
         {
             "page": 99,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_99.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_99.png"
         },
         {
             "page": 100,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_100.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_100.png"
         },
         {
             "page": 101,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_101.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_101.png"
         },
         {
             "page": 102,
-            "image_path": "assets/images/riding_theory/image_riding_theory_page_102.png"
+            "image_path": "./assets/images/riding_theory/image_riding_theory_page_102.png"
         }
     ]
 }

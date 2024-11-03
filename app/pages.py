@@ -5,7 +5,7 @@ def render_about_us():
     st.title("About Us")
     st.write("""
     ### Project Scope
-    Road Guardian is designed to help learner drivers and riders prepare for theory tests by providing an interactive learning platform.
+    Road Guardian is designed to help learner drivers and riders prepare for theory and practical tests by providing an interactive learning platform.
 
     #### Objectives
     - Enhance understanding of driving and riding theory concepts.

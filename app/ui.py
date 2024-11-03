@@ -1,53 +1,67 @@
 import streamlit as st
-from backend.document_processing import handle_query_submission
+from backend.document_processing import handle_query_submission, format_mcqs
 
 def render_ui(driver_metadata_paths, rider_metadata_paths, driver_image_folders, rider_image_folders):
-    password = st.text_input("Please Enter Password to Start :", type="password")
+    # Remove sidebar initialization from here
+    
+    # Display the main page content
+    st.title("Welcome to the 🚗Road Guardian App")
+    st.write("This is the main page where you can explore features and start using the app.")
+
+    # Display the disclaimer in a collapsible expander
+    with st.expander("IMPORTANT NOTICE: Please read before proceeding"):
+        st.write("""
+        This web application is developed as a proof-of-concept prototype. The information provided here is NOT
+        intended for actual usage and should not be relied upon for making decisions, especially those related to 
+        financial, legal, or healthcare matters.
+
+        Furthermore, please be aware that the LLM may generate inaccurate or incorrect information. You assume 
+        full responsibility for how you use any generated output. Always consult with qualified professionals 
+        for accurate and personalized advice.
+        """)
+
+    password = st.text_input("Please Enter Password to Start:", type="password")
     PASSWORD = "Tptest"
 
     if password == PASSWORD:
-        st.success("Welcome! Let's get started.")
+        st.success("Welcome to Road Guardian! Let's get started.")
         st.markdown("### Road Guardian Instructions")
         st.markdown(
-            "1. Choose your learning path: select either 'Learner Driver' or 'Learner Rider.'\n"
-            "2. Enter a question related to driving or riding theory.\n"
-            "3. Road Guardian will retrieve answers directly from official theory resources to help with your preparation.\n"
-            "4. Test your knowledge with a follow-up multiple-choice question to reinforce learning.\n"
-        )
-        st.markdown("---")
+            "1. Select Your Learning Path: Choose between Learner Driver or Learner Rider to tailor your experience.'\n"
+            "2. Ask a Question: Enter a driving or riding theory question to receive comprehensive answers.\n"
+            "3. Get Answers from Trusted Resources: Road Guardian will pull accurate information directly from official theory resources to support your learning.\n"
+            "4. View Detailed Matches: Expand the theory book matches to explore relevant text and images sourced from official materials.\n"
+            "5. TReinforce Your Knowledge: Test yourself with follow-up multiple-choice questions to solidify your understanding.\n"
+        )    
         learner_type = st.radio("Choose learner type", options=["Learner Driver", "Learner Rider"])
-        
-        if learner_type == "Learner Driver":
-            metadata_paths = driver_metadata_paths
-            image_folders = driver_image_folders
-        else:
-            metadata_paths = rider_metadata_paths
-            image_folders = rider_image_folders
+        metadata_paths = driver_metadata_paths if learner_type == "Learner Driver" else rider_metadata_paths
 
         query = st.text_area("Enter your question")
-        
+
         if st.button("Submit"):
-            progress_bar = st.progress(0)
-            with st.spinner("Processing your query, please wait..."):
-                progress_bar.progress(10)
-                #st.write("Step 1: Retrieving relevant information from theory books...")
-                findings, llm_response, mcqs = handle_query_submission(query, metadata_paths, image_folders)
-                progress_bar.progress(70)
-                #st.write("Step 2: Generating response using AI...")
-                progress_bar.progress(100)
+            with st.spinner("Processing your query, please wait for one minute"):
+                findings, llm_response, mcqs = handle_query_submission(query, metadata_paths)
+                
+                # Display retrieved findings
+                if findings:
+                    st.markdown("### Theory Book Matches")
+                    for i, finding in enumerate(findings):
+                        with st.expander(f"Match {i + 1}: {finding.page_content[:100]}..."):
+                            st.write(f"Content: {finding.page_content}")
+                            st.write(f"Metadata: {finding.metadata}")
+                            if 'images' in finding.metadata and finding.metadata['images']:
+                                for image_path in finding.metadata['images']:
+                                    st.image(image_path, caption=f"Page {finding.metadata['page']} Image")
 
-            if findings:
-                st.markdown("### Theory Book Matches")
-                for i, finding in enumerate(findings):
-                    with st.expander(f"Match {i + 1}: {finding.page_content[:100]}..."):
-                        st.write(f"Content: {finding.page_content}")
-                        st.write(f"Metadata: {finding.metadata}")
+                    # Display LLM response
+                    st.markdown("### AI-Generated Response")
+                    st.write(llm_response)
 
-                st.markdown("### Using AI technology to address your query.")
-                st.write(llm_response)
-                st.markdown("### Test Me: Knowledge Retention")
-                st.write(mcqs)
-            else:
-                st.write("No relevant data found in the theory books.")
+                    # Display formatted MCQs
+                    st.markdown("### Test Me: Knowledge Retention")
+                    formatted_mcqs = format_mcqs(mcqs)
+                    st.markdown(formatted_mcqs, unsafe_allow_html=True)
+                else:
+                    st.write("No relevant data found in the theory books.")
     else:
         st.warning("Incorrect password. Please try again.")

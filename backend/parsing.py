@@ -1,4 +1,5 @@
 import fitz  # PyMuPDF
+import os  # Import the os module
 from langchain.docstore.document import Document
 from io import BytesIO
 from hashlib import md5
@@ -19,6 +20,6 @@ class PdfFile(File):
         docs = [Document(page_content=page.get_text("text"), metadata={"page": i + 1}) for i, page in enumerate(pdf)]
         return cls(name=name, id=md5(file.read()).hexdigest(), docs=docs)
 
-def read_file(file_path: str) -> File:
+def read_file(file_path: str) -> PdfFile:
     with open(file_path, "rb") as f:
-        return PdfFile.from_bytes(BytesIO(f.read()), name=file_path.split("/")[-1])
+        return PdfFile.from_bytes(BytesIO(f.read()), name=os.path.basename(file_path))

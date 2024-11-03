@@ -4,7 +4,6 @@ from app.pages import render_about_us, render_methodology
 from app.sidebar import sidebar
 
 def main():
-    # Add navigation sidebar
     sidebar()
     
     st.sidebar.title("Navigation")

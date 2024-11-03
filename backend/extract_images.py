@@ -33,10 +33,11 @@ def extract_images_from_pdf(pdf_path, output_folder):
 
 if __name__ == "__main__":
     pdfs_and_folders = [
-        ("documents/basic_theory.pdf", "assets/images/basic_theory"),
-        ("documents/final_theory.pdf", "assets/images/final_theory"),
-        ("documents/riding_theory.pdf", "assets/images/riding_theory"),
+    ("./documents/basic_theory.pdf", "./assets/images/basic_theory"),
+    ("./documents/final_theory.pdf", "./assets/images/final_theory"),
+    ("./documents/riding_theory.pdf", "./assets/images/riding_theory"),
     ]
+
 
     all_images_metadata = {}
     for pdf_path, output_folder in pdfs_and_folders:
