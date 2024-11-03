@@ -1,11 +1,9 @@
-# retriever.py
 import streamlit as st
 from langchain.vectorstores.faiss import FAISS
 from langchain.embeddings import OpenAIEmbeddings
 
 class FaissRetriever:
     def __init__(self, documents):
-        # Retrieve API key from Streamlit secrets
         api_key = st.secrets["GOVTEXT_API_KEY"]
         embeddings = OpenAIEmbeddings(
             openai_api_key=api_key,
