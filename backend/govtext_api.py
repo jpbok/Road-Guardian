@@ -3,7 +3,7 @@ import requests
 import os
 
 API_URL = "https://litellm.govtext.gov.sg/chat/completions"
-API_KEY = os.getenv("GOVTEXT_API_KEY")  # Ensure this is added in your environment
+API_KEY = os.getenv("GOVTEXT_API_KEY")  
 
 if not API_KEY:
     raise EnvironmentError("GovText API key is missing. Ensure 'GOVTEXT_API_KEY' is set in the environment.")
