@@ -2,7 +2,7 @@ import streamlit as st
 from app.ui import render_ui
 from app.pages import render_about_us, render_methodology
 from app.sidebar import sidebar
-
+#
 def main():
     sidebar()
     
